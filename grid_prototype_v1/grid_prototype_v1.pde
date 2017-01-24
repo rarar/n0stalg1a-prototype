@@ -8,9 +8,12 @@ void setup ()
 }
 
 void draw ()
-{
-  noLoop();
-  background(0); // clear background with white
+{ 
+  fill(0, 25);
+  rect(0, 0, width, height);
+  
+  //noLoop();
+  //background(0); // clear background with white
   int start = 65;
   for (int r=32; r < 840; r+=32 ) // rows
   {
